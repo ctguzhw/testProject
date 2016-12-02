@@ -8,6 +8,8 @@ var rotateSpeed : int = 40;
 var heightSpeed :int = 10;
 var newObject : Transform;
 
+var xmshu : int = 0;
+var sdshu : int = 0;
 
 function Update () {
 
