@@ -61,6 +61,12 @@ function Update () {
 		var n: Transform = Instantiate(newObject,transform.position,transform.rotation);
 		var fwd:Vector3 = transform.TransformDirection(Vector3.forward);
 		n.GetComponent.<Rigidbody>().AddForce(fwd*20055);
+		sdshu++;
+
+		print("射弹数:" + sdshu + " 消灭数:" + xmshu);
+		gameObject.Find("Canvas/ziti").GetComponent(UI.Text).text = "射弹数:" + sdshu + " 消灭数:" + xmshu;
+		
+
 	}
 
 

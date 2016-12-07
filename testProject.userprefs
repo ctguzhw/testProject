@@ -1,9 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\script\sheji.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\script\heping.js">
     <Files>
-      <File FileName="Assets\script\sd.js" Line="9" Column="2" />
+      <File FileName="Assets\script\sd.js" Line="4" Column="2" />
       <File FileName="Assets\script\sheji.js" Line="1" Column="1" />
+      <File FileName="Assets\script\jiancha.js" Line="19" Column="3" />
+      <File FileName="Assets\script\heping.js" Line="13" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
