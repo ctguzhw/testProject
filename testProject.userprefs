@@ -1,11 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\script\heping.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\script\jiancha.js">
     <Files>
       <File FileName="Assets\script\sd.js" Line="4" Column="2" />
-      <File FileName="Assets\script\sheji.js" Line="1" Column="1" />
-      <File FileName="Assets\script\jiancha.js" Line="19" Column="3" />
-      <File FileName="Assets\script\heping.js" Line="13" Column="2" />
+      <File FileName="Assets\script\sheji.js" Line="66" Column="43" />
+      <File FileName="Assets\script\jiancha.js" Line="31" Column="3" />
+      <File FileName="Assets\script\heping.js" Line="12" Column="2" />
+      <File FileName="Assets\script\menu.js" Line="14" Column="22" />
+      <File FileName="Assets\script\restart.js" Line="11" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

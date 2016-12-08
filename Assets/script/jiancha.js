@@ -13,8 +13,19 @@ function Update () {
 	{
 		xm = gameObject.Find("Camera").GetComponent(sheji).xmshu++;
 		sd = gameObject.Find("Camera").GetComponent(sheji).sdshu;
-		print(" 检查到消灭 射弹数:" + sd + " 消灭数:" + xm);
 		gameObject.Find("Canvas/ziti").GetComponent(UI.Text).text = "射弹数:" + sd + " 消灭数:" + xm;
 		Destroy(gameObject);
+
+		if( xm >5){
+
+			gameObject.Find("Canvas/ziti").GetComponent(UI.Text).text = "恭喜过关！";
+
+			gameObject.Find("Point light").GetComponent(Light).enabled = false;
+			gameObject.Find("Camera").GetComponent(sheji).enabled = false;
+
+			gameObject.Find("dimian").GetComponent(restart).enabled = true;
+
+		} 
+
 	}	
 };
